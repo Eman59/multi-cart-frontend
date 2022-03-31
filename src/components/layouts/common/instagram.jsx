@@ -15,15 +15,15 @@ class Instagram extends Component {
         }
     }
 
-    componentWillMount() {
-        const instagram = ig({
-            accessToken: '8295761913.aa0cb6f.2914e9f04dd343b8a57d9dc9baca91cc',
-        });
+    // componentWillMount() {
+    //     const instagram = ig({
+    //         accessToken: '8295761913.aa0cb6f.2914e9f04dd343b8a57d9dc9baca91cc',
+    //     });
 
-        const users = instagram.media();
-        users.then(res => this.setState({InstaData:res.data}));
+    //     const users = instagram.media();
+    //     users.then(res => this.setState({InstaData:res.data}));
 
-    }
+    // }
 
     render (){
 
